@@ -3,16 +3,25 @@
 This project was developed for **Baykar** as part of the **Artificial Intelligence Specialization Program Graduation Project**. It demonstrates how Streamlit can be used to build an interactive and intuitive AI-powered dashboard for evaluating and visualizing machine learning model performance.
 
 ## Project Description
+The goal of this project is to enable users to configure, train, and visualize the performance of various AI models through a simple and intuitive interface. The dashboard includes options for customizing model layers, selecting activation functions, choosing optimizers, and reviewing performance metrics.
 
-The main goal of this project is to provide a **user-friendly web interface** for training, evaluating, and visualizing the performance of machine learning models. The interface was built using [Streamlit](https://streamlit.io/), allowing users to interactively select model configurations, view metrics, and explore results in real time.
+The user interface consists of **two main sections**:
 
-Key features:
+1. **Machine Learning Section (ml_methods.py)**  
+   - Offers an overview of the dataset and allows preprocessing operations.  
+   - Applies classical machine learning algorithms (e.g., Random Forest, SVM, Logistic Regression).  
+   - Provides interactive hyperparameter configuration for each model in real time.  
+   - Aimed at understanding the impact of preprocessing and model selection on performance.
 
-- Train and evaluate ML models through a visual interface  
-- Dynamic selection of layer sizes, activation functions, and optimizers  
-- Visualize training accuracy, loss, and model architecture  
-- Streamlined UI for experimentation and hyperparameter tuning  
-- Built-in performance metrics such as accuracy and classification reports  
+2. **Deep Learning Section (dl_methods.py)**  
+   - Uses the same dataset but applies deep learning approaches.  
+   - Users can dynamically build their own neural networks by adjusting:  
+     - Number of layers  
+     - Neurons per layer  
+     - Activation functions  
+     - Optimizer and learning rate  
+   - This allows learners to experiment and observe how neural network architecture influences performance.
+
 
 ## Technologies Used
 
