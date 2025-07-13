@@ -26,5 +26,3 @@ pip install -r requirements.txt
 streamlit run main_app.py
 ```
 
-
-## Proje dosyalarının içinde projeyi anlatan bir video da bulunmaktadır.
