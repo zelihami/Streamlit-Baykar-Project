@@ -37,11 +37,17 @@ To ensure the project runs correctly, the file structure should be as follows:
 
 .
 ├──  main_app.py # Main application with homepage and navigation
+
 ├──  ml_methods.py # Machine Learning page
+
 ├──  dl_methods.py # Deep Learning page
+
 ├──  home.py # Homepage layout and content
+
 ├──  data.csv # Wisconsin Breast Cancer dataset
+
 ├──  requirements.txt # List of required libraries
+
 └──  README.md
 
 ## Install required dependencies:
